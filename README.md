@@ -1,7 +1,7 @@
 <h1 align="center">Olá 👋, sou Willian C. Nunes</h1><h3 align="center">Analista</h3>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=troopsofarchangel&label=Profile%20views&color=0e75b6&style=flat" alt="troopsofarchangel" /> </p>
 
-- 🔭 Atualmente estou trabalhando em **Testes com Rpi em ambiente controlado**
+- 🔭 Atualmente estou trabalhando em **Aplicativos, I.A. e Servidores**
 
 - 🌱 Atualmente estou aprendendo **Cybersec, A.I., Bash**
 
