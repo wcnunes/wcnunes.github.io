@@ -11,13 +11,13 @@
 
 - 👨 💻 Todos os meus projetos estão disponíveis em [https://github.com/troopsofarchangel](https://github.com/troopsofarchangel)
 
-- 📝 Eu escrevo regularmente artigos sobre [eletric.academy.io](eletric.academy.io)
+- 📝 Eu escrevo regularmente artigos em fóruns e comunidades.
 
-- 💬 Pergunte-me sobre **Powershell, Bash, BI, Elétrica**
+- 💬 Pergunte-me sobre **Powershell, Bash, BI, Elétrica, modificações, impressão 3D**
 
 - 📫 Como chegar até mim **troopsofarchangel@gmail.com**
 
-- 📄 Conheça minhas experiências [notify.cv.pro](notify.cv.pro)
+- 📄 Conheça minhas experiências (em produção).
 
 - ⚡ Curiosidade **Eu preciso andar de moto!**
 
