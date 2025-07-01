@@ -7,9 +7,11 @@
 
 - Feito p/ solucionar uma demanda [badgers](https://troopsofarchangel.github.io/badgers/)
 
+- Tire sua sorte! [tarot](https://troopsofarchangel.github.io/tarot/)
+
 - Rodando em servidor local [lousaBan](https://github.com/troopsofarchangel/lousaban)
 
-- Quem precisa disso? [escriba](https://troopsofarchangel.github.io/escriba/)
+- Quem precisa disso? os Irmãos! [escriba](https://troopsofarchangel.github.io/escriba/)
 
 - Todos meus projetos [https://github.com/troopsofarchangel](https://github.com/troopsofarchangel)
 
