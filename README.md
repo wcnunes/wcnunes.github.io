@@ -1,5 +1,5 @@
-<h1 align="center">Hi 👋, I'm Willian C. Nunes</h1>
-<h3 align="center">Analista</h3>
+<h1 align="center">Oi 👋, eu sou! Willian C. Nunes</h1>
+<h3 align="center">Analista e inventor</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=troopsofarchangel&label=Profile%20views&color=0e75b6&style=flat" alt="troopsofarchangel" /> </p>
 
