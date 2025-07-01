@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Willian C. Nunes</title>
+    <title></title>
 </head>
 <body>
     <h1 align="center">Oi 👋, eu sou Willian C. Nunes</h1>
