@@ -5,9 +5,11 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=troopsofarchangel" alt="troopsofarchangel" /></a> </p>
 
-- Feito p/ solucionar uma demanda [badgers](https://troopsofarchangel.github.io/badgers/)
-
 - Sempre estudando e criando coisas **Aplicações web, Apks, LLMM.**
+  
+- Feito p/ solucionar uma demanda [badgers](https://troopsofarchangel.github.io/badgers/)
+  
+- Tire sua sorte! [tarot](https://troopsofarchangel.github.io/tarot/)
 
 - Rodando em servidor local [lousaBan](https://github.com/troopsofarchangel/lousaban)
 
