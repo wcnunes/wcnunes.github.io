@@ -6,10 +6,8 @@
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=troopsofarchangel" alt="troopsofarchangel" /></a> </p>
 
 - Sempre estudando e criando coisas **Aplicações web, Apks, LLMM.**
-  
+
 - Feito p/ solucionar uma demanda [badgers](https://troopsofarchangel.github.io/badgers/)
-  
-- Tire sua sorte! [tarot](https://troopsofarchangel.github.io/tarot/)
 
 - Rodando em servidor local [lousaBan](https://github.com/troopsofarchangel/lousaban)
 
@@ -17,7 +15,7 @@
 
 - Todos meus projetos [https://github.com/troopsofarchangel](https://github.com/troopsofarchangel)
 
-- Colaborando sempre com: quem precisar!
+- Colaborando sempre com: [quem precisar!](quem precisar!)
 
 - Me Pergunte: **Você consegue fazer isso? E verás!**
 
@@ -65,3 +63,4 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=troopsofarchangel&show_icons=true&locale=en" alt="troopsofarchangel" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=troopsofarchangel&" alt="troopsofarchangel" /></p>
+
