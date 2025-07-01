@@ -13,7 +13,7 @@
 
 - Todos meus projetos [https://github.com/troopsofarchangel](https://github.com/troopsofarchangel)
 
-- Colaborando sempre com: [quem precisar!](quem precisar!)
+- Colaborando sempre com: quem precisar!
 
 - Me Pergunte: **Você consegue fazer isso? E verás!**
 
