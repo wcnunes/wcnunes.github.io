@@ -1,5 +1,5 @@
-<h1 align="center">Oi 👋, eu sou! Willian C. Nunes</h1>
-<h3 align="center">Analista e inventor</h3>
+<h1 align="center">Oi 👋, eu sou Willian C. Nunes</h1>
+<h3 align="center">Analista / Inventor</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=troopsofarchangel&label=Profile%20views&color=0e75b6&style=flat" alt="troopsofarchangel" /> </p>
 
@@ -7,11 +7,11 @@
 
 - Feito p/ solucionar uma demanda [badgers](https://troopsofarchangel.github.io/badgers/)
 
-- Tire sua sorte! [tarot](https://troopsofarchangel.github.io/tarot/)
+- Sempre estudando e criando coisas **Aplicações web, Apks, LLMM.**
 
 - Rodando em servidor local [lousaBan](https://github.com/troopsofarchangel/lousaban)
 
-- Quem precisa disso? os Irmãos! [escriba](https://troopsofarchangel.github.io/escriba/)
+- Quem precisa disso? os Ir:. [escriba](https://troopsofarchangel.github.io/escriba/)
 
 - Todos meus projetos [https://github.com/troopsofarchangel](https://github.com/troopsofarchangel)
 
@@ -20,6 +20,8 @@
 - Me Pergunte: **Você consegue fazer isso? E verás!**
 
 - Você me encontra com: **troopsofarchangel@gmail.com**
+
+- Meu curriculum? [Só me pedir!](Só me pedir!)
 
 - Sabe oque é engraçado? **Acho que preciso andar de moto!**
 
