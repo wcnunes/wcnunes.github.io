@@ -1,7 +1,6 @@
 # 💫 About Me:
 🔭 Tento ver a engenharia reversa das coisas para melhor compreender.<br>📝Fusion 360 para aprender projetar coisas personalizadas!<br>🌱 Criando e testando aplicações web, apks, chatbot.<br>💬 Todo dia eu tento criar alguma coisa nova, isso é bom?<br>⚡ Solucionando demandas diárias.<br>🤝Procurando trabalho...<br>🛵 Mas preciso mesmo é andar de moto!<br><br><br><br><br><br>
 
-
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/nunes_w1ll) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/nunes20) [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/troop3rs) [![Twitch](https://img.shields.io/badge/Twitch-%239146FF.svg?logo=Twitch&logoColor=white)](https://twitch.tv/unabomber_x) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:troopsofarchangel@gmail.com) 
 
