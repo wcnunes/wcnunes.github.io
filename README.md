@@ -1,4 +1,4 @@
-# 💫 Sobre:
+# 👨‍💻 Sobre:
 🔭 Tento ver a engenharia reversa das coisas para melhor compreender.<br>📝Fusion 360 para aprender projetar coisas personalizadas!<br>🌱 Criando e testando aplicações web, apks, chatbot.<br>💬 Todo dia eu tento criar alguma coisa nova, isso é bom?<br>⚡ Solucionando demandas diárias.<br>🤝Procurando trabalho...<br>🛵 Mas preciso mesmo é andar de moto!<br><a href="https://wcnunes.github.io/badgers"> Crie um chachá engraçado!</a><br><a href="https://wcnunes.github.io/tarot"> Tire sua sorte hoje!</a><br><a href="https://wcnunes.github.io/escriba">Cansado de formatar atas?</a><br><a href="https://github.com/wcnunes/wppflood"> Assuma a responsabilidade! </a><br><a href="https://github.com/wcnunes/safeshot-android"> Quer manter seguro os dados das fotos?</a><br><a href="https://github.com/wcnunes/lousaban">Quadro KanBan</a><br>
 
 ## 🌐 Socials:
