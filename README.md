@@ -1,27 +1,3066 @@
-# 👨‍💻 Sobre:
-🔭 Tento ver a engenharia reversa das coisas para melhor compreender.<br>📝Fusion 360 para aprender projetar coisas personalizadas!<br>🌱 Criando e testando aplicações web, apks, chatbot.<br>💬 Todo dia eu tento criar alguma coisa nova, isso é bom?<br>⚡ Solucionando demandas diárias.<br>🤝Procurando trabalho...<br>🛵 Mas preciso mesmo é andar de moto!<br><a href="https://wcnunes.github.io/badgers"> Crie um chachá engraçado!</a><br><a href="https://wcnunes.github.io/tarot"> Tire sua sorte hoje!</a><br><a href="https://wcnunes.github.io/escriba">Cansado de formatar atas?</a><br><a href="https://github.com/wcnunes/wppflood"> Assuma a responsabilidade! </a><br><a href="https://github.com/wcnunes/safeshot-android"> Quer manter seguro os dados das fotos?</a><br><a href="https://github.com/wcnunes/lousaban">Quadro KanBan</a><br><a href="https://wcnunes.github.io/eventbot/"> Gerenciador de eventos</a><br><a href="https://github.com/wcnunes/curiosos/blob/main/politica-de-privacidade.html"> Politica de privacidade</a><br>
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Willian Cezar Nunes - Quase um Jedi da Tecnologia 🤣</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono|Orbitron|Anton">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        body {
+            background-color: #000;
+            color: #ffc107; /* Amarelo Star Wars */
+            font-family: 'Anton', sans-serif; /* Fonte Star Wars */
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25'%3E%3Cdefs%3E%3CradialGradient id='a' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23000000'/%3E%3Cstop offset='1' stop-color='%23000000'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23a)'/%3E%3C/svg%3E");
+            background-attachment: fixed;
+            background-size: cover;
+            position: relative; /* Adicionado para posicionar o efeito corretamente */
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 30px;
+            background: rgba(0, 0, 0, 0.7);
+            border: 1px solid #333;
+            box-shadow: 0 0 20px rgba(255, 193, 7, 0.5); /* Amarelo */
+            border-radius: 10px;
+            text-align: center;
+        }
+        h1, h2, h3 {
+            color: #ffeb3b; /* Amarelo mais claro */
+            /* text-shadow: 0 0 5px #ffc107;  Removido ou suavizado */
+            font-family: 'Orbitron', sans-serif;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        a {
+            color: #b2ff59;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #dfff7a;
+        }
+        p {
+            font-size: 1.1em;
+            color: #eee;
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        li {
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .badge-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+            justify-content: center;
+        }
+        .badge {
+            background-color: #222;
+            color: #fff;
+            padding: 8px 12px;
+            border-radius: 5px;
+            font-size: 0.9em;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .badge:hover {
+            background-color: #444;
+        }
+        a.glow-link {
+            color: #ffca28;
+            /* text-shadow: 0 0 5px #ffca28;  Removido ou suavizado */
+        }
+        a.glow-link:hover {
+            color: #ffe082;
+            text-shadow: 0 0 5px #ffe082; /* Reduzido */
+        }
+        .fade-in {
+            animation: fadeIn 1s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        .pulsate {
+            animation: pulsate 2s ease-in-out infinite;
+        }
+        @keyframes pulsate {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #333;
+            color: #aaa;
+            font-size: 0.9em;
+        }
+        .star-wars-banner {
+            background: none;
+            color: #ffc107;
+            text-align: center;
+            padding: 100px 0;
+            position: relative;
+            overflow: hidden;
+            border-bottom: 2px solid #ffca28;
+        }
+        .star-wars-banner .star-wars-bg {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            pointer-events: none;
+        }
+        .star-wars-banner h1,
+        .star-wars-banner p {
+            position: relative;
+            z-index: 10;
+        }
+        .star-wars-banner .at-at,
+        .star-wars-banner .bg,
+        .star-wars-banner .moon,
+        .star-wars-banner .mountain-first,
+        .star-wars-banner .mountain-second,
+        .star-wars-banner .first-bg,
+        .star-wars-banner .first-bg-anim,
+        .star-wars-banner .space-ship,
+        .star-wars-banner .rock,
+        .star-wars-banner .rock-content {
+            /* Adapte aqui os estilos principais do fundo animado, conforme o less.css/test.html */
+            /* Exemplo: position, tamanho, z-index, animações, etc. */
+        }
+        .star-wars-banner:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+            z-index: 1;
+        }
+        .star-wars-banner h1 {
+            font-size: 3em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+            position: relative;
+            z-index: 2;
+            font-family: 'Anton', sans-serif;
+        }
+        .star-wars-banner p {
+            font-size: 1.5em;
+            position: relative;
+            z-index: 2;
+        }
+        .project-links {
+          display: flex;
+          flex-direction: column;
+          gap: 2px;
+          align-items: center;
+        }
+        .project-links a {
+          display: block;
+          width: 100%;
+          background: #333;
+          color: #ffc107;
+          font-family: 'Anton', sans-serif;
+          font-size: 1.2em;
+          padding: 18px 24px;
+          border-radius: 8px;
+          text-align: center;
+          box-sizing: border-box;
+          transition: background 0.2s, color 0.2s;
+          margin: 0 !important;
+        }
+        .project-links a:hover {
+          background: #444;
+          color: #ffe082;
+        }
+        /* Container para as estatísticas lado a lado */
+        .stats-container {
+            display: flex;
+            justify-content: space-between; /* Distribui os elementos */
+            flex-wrap: wrap; /* Permite que os elementos quebre para a linha de baixo em telas menores */
+        }
+        .stats-container img {
+            width: 48%; /* Ajusta o tamanho para ocupar metade do container, com uma pequena margem */
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 193, 7, 0.3);
+        }
+        /* Estilos para os ícones */
+        .icon {
+            font-size: 1.5em;
+            margin: 0 5px;
+            color: #ffca28;
+            /* text-shadow: 0 0 5px #ffca28;  Removido ou suavizado */
+            animation: iconGlow 2s linear infinite;
+        }
+        @keyframes iconGlow {
+            0% {
+                opacity: 0.8;
+            }
+            50% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0.8;
+            }
+        }
+        /* Estilos para os trophies */
+        .trophies-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center; /* Centraliza os trophies */
+            margin-bottom: 20px;
+        }
+        .trophies-container img {
+            width: auto; /* Ajusta o tamanho automaticamente */
+            height: 120px; /* Define uma altura fixa para os trophies */
+            margin: 5px;
+        }
+        /* Estilo para centralizar o Top Contributed Repo */
+        .top-repo-container {
+            text-align: center;
+        }
+        .top-repo-container img {
+            max-width: 100%; /* Garante que a imagem não ultrapasse a largura do container */
+            height: auto;
+        }
+        /* Estilos para o sabre de luz */
+        .lightsaber {
+            position: relative;
+            width: 100px; /* Tamanho do sabre */
+            height: 20px;
+            background-color: #333;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+        }
+        .lightsaber input[type="checkbox"] {
+            display: none; /* Esconde o checkbox */
+        }
+        .lightsaber label {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+            z-index: 2;
+        }
+        .lightsaber .switch {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            border-radius: 10px;
+            z-index: 1;
+        }
+        .lightsaber .plasma {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #ffc107; /* Amarelo Star Wars */
+            border-radius: 10px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .lightsaber input:checked + .switch + .plasma {
+            opacity: 1;
+        }
+        .lightsaber .plasma.yoda {
+            background-color: #4CAF50; /* Verde Jedi */
+        }
+        .lightsaber .plasma.vader {
+            background-color: #F44336; /* Vermelho Sith */
+        }
+        .lightsaber .plasma.windu {
+            background-color: #2196F3; /* Azul Republica */
+        }
+        .lightsaber .plasma.obi-wan {
+            background-color: #FF9800; /* Laranja Jedi */
+        }
+        .lightsaber.horizontal .switch {
+            border-radius: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            border-radius: 10px;
+        }
+        .lightsaber.horizontal .plasma {
+            border-radius: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #ffc107; /* Amarelo Star Wars */
+            border-radius: 10px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .lightsaber.horizontal input:checked + .switch + .plasma {
+            opacity: 1;
+        }
+        .lightsaber.horizontal .plasma.yoda {
+            background-color: #4CAF50; /* Verde Jedi */
+        }
+        .lightsaber.horizontal .plasma.vader {
+            background-color: #F44336; /* Vermelho Sith */
+        }
+        .lightsaber.horizontal .plasma.windu {
+            background-color: #2196F3; /* Azul Republica */
+        }
+        .lightsaber.horizontal .plasma.obi-wan {
+            background-color: #FF9800; /* Laranja Jedi */
+        }
+        .projeto-sabre {
+            display: flex;
+            align-items: center;
+            gap: 18px;
+            margin-bottom: 18px;
+        }
+        .lightsaber.horizontal {
+            transform: rotate(-90deg);
+            margin-right: 0;
+        }
+        .nome-projeto {
+            font-size: 1.1em;
+            color: #ffc107;
+            font-family: 'Anton', sans-serif;
+        }
+        .lightsaber label {
+            text-indent: -9999px; /* Esconde qualquer texto do label */
+        }
+        /* Fundo animado Star Wars */
+        .bg {
+            width: 100%;
+            height: 100%;
+        }
+        .star {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            border-radius: 6px;
+            background: #fff;
+            opacity: 0.5;
+        }
+        .star-small {
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            border-radius: 3px;
+            background: #fff;
+            opacity: 0.5;
+        }
+        .star-1 { left: 5%; top: 40%; }
+        .star-2 { left: 20%; top: 5%; }
+        .star-3 { left: 40%; top: 20%; }
+        .star-4 { left: 60%; top: 5%; }
+        .star-5 { left: 80%; top: 60%; }
+        .star-6 { left: 95%; top: 10%; }
+        .star-small-1 { left: 10%; top: 15%; }
+        .star-small-2 { left: 14%; top: 25%; }
+        .star-small-3 { left: 8%; top: 60%; }
+        .star-small-4 { left: 25%; top: 40%; }
+        .star-small-5 { left: 18%; top: 75%; }
+        .star-small-6 { left: 50%; top: 40%; }
+        .star-small-7 { left: 60%; top: 20%; }
+        .star-small-8 { left: 70%; top: 40%; }
+        .star-small-9 { left: 90%; top: 20%; }
+        .star-small-10 { left: 85%; top: 40%; }
+        .moon {
+            position: absolute;
+            left: 50%;
+            top: 25%;
+            margin: -60px 0 0 -90px;
+            width: 180px;
+            height: 180px;
+            border-radius: 90px;
+            background: linear-gradient(135deg, #fff 0%, #fff 1%, rgba(255,255,255,0) 70%);
+            transform: rotate(90deg);
+            z-index: 5;
+        }
+        .mountain-first {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            margin-top: -260px;
+            width: 550px;
+            height: 400px;
+            z-index: 1;
+        }
+        .mountain-first:before {
+            content: '';
+            position: absolute;
+            left: -100px;
+            bottom: 0;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 300px 300px 200px;
+            border-color: transparent transparent #4cb3ff transparent;
+            z-index: 2;
+        }
+        .mountain-first:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 60%;
+            background: linear-gradient(to bottom, rgba(125,185,232,0) 0%, #0092ff 65%);
+            opacity: 0.8;
+            z-index: 4;
+        }
+        .mountain-shadow {
+            position: absolute;
+            left: -100px;
+            bottom: 0;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 450px 300px 200px;
+            border-color: transparent transparent #7bc7ff transparent;
+        }
+        .mountain-second {
+            position: absolute;
+            right: -10px;
+            top: 50%;
+            margin-top: -240px;
+            width: 500px;
+            height: 400px;
+            z-index: 1;
+        }
+        .mountain-second:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 350px 350px 300px;
+            border-color: transparent transparent #4cb3ff transparent;
+            z-index: 2;
+        }
+        .mountain-second:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, rgba(125,185,232,0) 0%, #0092ff 65%);
+            opacity: 0.8;
+            z-index: 4;
+        }
+        .mountain-second .mountain-shadow {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 650px 350px 300px;
+            border-color: transparent transparent #7bc7ff transparent;
+        }
+        .mountain-top {
+            position: absolute;
+            left: 50%;
+            top: 110px;
+            margin: 0 0 0 30px;
+            width: 50px;
+            height: 50px;
+            z-index: 8;
+        }
+        .mountain-top:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            border-style: solid;
+            border-width: 0 50px 20px 50px;
+            border-color: transparent transparent #50b4ff transparent;
+            transform: rotate(-125deg);
+        }
+        .mountain-top:before {
+            content: '';
+            position: absolute;
+            left: -5px;
+            top: 0;
+            border-style: solid;
+            border-width: 0 50px 20px 50px;
+            border-color: transparent transparent #50b4ff transparent;
+            transform: rotate(30deg);
+        }
+        .first-bg {
+            position: absolute;
+            left: -10%;
+            top: 50%;
+            margin-top: 120px;
+            width: 120%;
+            height: 10px;
+            border-bottom: 580px solid #104166;
+            border-left: 8px solid transparent;
+            border-right: 14px solid transparent;
+            z-index: 100;
+        }
+        .first-bg-anim {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+        }
+        /* CSS do AT-AT Walker */
+        * {
+            -webkit-box-sizing: border-box;
+            -khtml-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -ms-box-sizing: border-box;
+            box-sizing: border-box;
+        }
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/nunes_w1ll) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/nunes20) [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/troop3rs) [![Twitch](https://img.shields.io/badge/Twitch-%239146FF.svg?logo=Twitch&logoColor=white)](https://twitch.tv/unabomber_x) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:troopsofarchangel@gmail.com) 
+        html, body {
+            width: 100%;
+            height: 100%;
+        }
 
-# 💻 Tech Stack:
-![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=plastic&logo=windows-terminal&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=plastic&logo=typescript&logoColor=white) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=plastic&logo=gnu-bash&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=plastic&logo=python&logoColor=ffdd54) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=plastic&logo=php&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=plastic&logo=powershell&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23F7DF1E) ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=plastic&logo=kotlin&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=plastic&logo=html5&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=plastic&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=plastic&logo=microsoftazure&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=plastic&logo=Cloudflare&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=plastic&logo=firebase) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=plastic&logo=google-cloud&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=plastic&logo=netlify&logoColor=#00C7B7) ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-FDEE21?style=plastic&logo=apachespark&logoColor=black) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=plastic&logo=flask&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=plastic&logo=Flutter&logoColor=white) ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=plastic&logo=jquery&logoColor=white) ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=plastic&logo=laravel&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=plastic&logo=npm&logoColor=white) ![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=plastic&logo=nestjs&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=plastic&logo=next.js&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=plastic&logo=node.js&logoColor=white) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=plastic&logo=opencv&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=plastic&logo=react&logoColor=%2361DAFB) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=plastic&logo=react&logoColor=%2361DAFB) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=plastic&logo=tailwind-css&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=plastic&logo=vite&logoColor=white) ![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=plastic&logo=vuedotjs&logoColor=%234FC08D) ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=plastic&logo=WordPress&logoColor=white) ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=plastic&logo=yarn&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=plastic&logo=apache&logoColor=white) ![Apache Tomcat](https://img.shields.io/badge/apache%20tomcat-%23F8DC75.svg?style=plastic&logo=apache-tomcat&logoColor=black) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=plastic&logo=nginx&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=plastic&logo=firebase&logoColor=ffcd34) ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=plastic&logo=mariadb&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=plastic&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=plastic&logo=mysql&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=plastic&logo=postgresql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=plastic&logo=sqlite&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=plastic&logo=adobe%20photoshop&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=plastic&logo=Canva&logoColor=white) ![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=plastic&logo=blender&logoColor=white) ![Gimp](https://img.shields.io/badge/Gimp-657D8B?style=plastic&logo=gimp&logoColor=FFFFFF) ![Inkscape](https://img.shields.io/badge/Inkscape-e0e0e0?style=plastic&logo=inkscape&logoColor=080A13) ![Krita](https://img.shields.io/badge/Krita-203759?style=plastic&logo=krita&logoColor=EEF37B) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=plastic&logo=TensorFlow&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=plastic&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=plastic&logo=numpy&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=plastic&logo=PyTorch&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=plastic&logo=Matplotlib&logoColor=black) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=plastic&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=plastic&logo=github&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=plastic&logo=gitlab&logoColor=white) ![GitLab CI](https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=plastic&logo=gitlab&logoColor=white) ![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=plastic&logo=ansible&logoColor=white) ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=plastic&logo=Arduino&logoColor=white) ![Cisco](https://img.shields.io/badge/cisco-%23049fd9.svg?style=plastic&logo=cisco&logoColor=black) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=plastic&logo=docker&logoColor=white) ![Gradle](https://img.shields.io/badge/Gradle-02303A.svg?style=plastic&logo=Gradle&logoColor=white) ![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=plastic&logo=grafana&logoColor=white) ![Home Assistant](https://img.shields.io/badge/home%20assistant-%2341BDF5.svg?style=plastic&logo=home-assistant&logoColor=white) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=plastic&logo=jira&logoColor=white) ![Meta](https://img.shields.io/badge/Meta-%230467DF.svg?style=plastic&logo=Meta&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=plastic&logo=notion&logoColor=white) ![Pi-Hole](https://img.shields.io/badge/pihole-%2396060C.svg?style=plastic&logo=pi-hole&logoColor=white) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=plastic&logo=powerbi&logoColor=black) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=plastic&logo=Prometheus&logoColor=white) ![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=plastic&logo=Raspberry-Pi) ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=plastic&logo=Trello&logoColor=white) ![Steam](https://img.shields.io/badge/steam-%23000000.svg?style=plastic&logo=steam&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=wcnunes&theme=codeSTACKr&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=wcnunes&theme=codeSTACKr&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=wcnunes&theme=codeSTACKr&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+        body {
+            margin: 0;
+            line-height: 1;
+            color: #000;
+            background: #0092ff;
+        }
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=wcnunes&theme=codeSTACKr&no-frame=false&no-bg=false&margin-w=4)
+        section {
+            position: relative;
+            width: 100%;
+            min-height: 500px;
+            overflow: hidden;
+        }
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=wcnunes&limit=5&theme=codeSTACKr&combine_all_yearly_contributions=true)
+        .bg {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 70%;
+            z-index: 1;
+        }
 
----
-[![](https://visitcount.itsvg.in/api?id=wcnunes&icon=5&color=2)](https://visitcount.itsvg.in)
+        .star {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            border-radius: 6px;
+            background: #fff;
+            opacity: 0.5;
+        }
 
-  ## 💰 Ajuda no café? Eu bebo muito café ☕️
-  [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/troopsofarr) 
+        .star-small {
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            border-radius: 3px;
+            background: #fff;
+            opacity: 0.5;
+        }
 
-  
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+        .star-1 { left: 5%; top: 40%; }
+        .star-2 { left: 20%; top: 5%; }
+        .star-3 { left: 40%; top: 20%; }
+        .star-4 { left: 60%; top: 5%; }
+        .star-5 { left: 80%; top: 60%; }
+        .star-6 { left: 95%; top: 10%; }
+        .star-small-1 { left: 10%; top: 15%; }
+        .star-small-2 { left: 14%; top: 25%; }
+        .star-small-3 { left: 8%; top: 60%; }
+        .star-small-4 { left: 25%; top: 40%; }
+        .star-small-5 { left: 18%; top: 75%; }
+        .star-small-6 { left: 50%; top: 40%; }
+        .star-small-7 { left: 60%; top: 20%; }
+        .star-small-8 { left: 70%; top: 40%; }
+        .star-small-9 { left: 90%; top: 20%; }
+        .star-small-10 { left: 85%; top: 40%; }
+
+        .moon {
+            position: absolute;
+            left: 50%;
+            top: 25%;
+            margin: -60px 0 0 -260px;
+            width: 180px;
+            height: 180px;
+            border-radius: 90px;
+            background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.99) 1%, rgba(255,255,255,0) 70%);
+            transform: rotate(90deg);
+            z-index: 5;
+        }
+
+        .mountain-first {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            margin-top: -260px;
+            width: 550px;
+            height: 400px;
+            z-index: 1;
+        }
+
+        .mountain-first:before {
+            content: '';
+            position: absolute;
+            left: -100px;
+            bottom: 0;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 300px 300px 200px;
+            border-color: transparent transparent #4cb3ff transparent;
+            z-index: 2;
+        }
+
+        .mountain-first:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 60%;
+            background: linear-gradient(to bottom, rgba(125,185,232,0) 0%, #0092ff 65%);
+            opacity: 0.8;
+            z-index: 4;
+        }
+
+        .mountain-shadow {
+            position: absolute;
+            left: -100px;
+            bottom: 0;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 450px 300px 200px;
+            border-color: transparent transparent #7bc7ff transparent;
+        }
+
+        .mountain-second {
+            position: absolute;
+            right: -10px;
+            top: 50%;
+            margin-top: -240px;
+            width: 500px;
+            height: 400px;
+            z-index: 1;
+        }
+
+        .mountain-second:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 350px 350px 300px;
+            border-color: transparent transparent #4cb3ff transparent;
+            z-index: 2;
+        }
+
+        .mountain-second:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, rgba(125,185,232,0) 0%, #0092ff 65%);
+            opacity: 0.8;
+            z-index: 4;
+        }
+
+        .mountain-top {
+            position: absolute;
+            left: 50%;
+            top: 110px;
+            margin: 0 0 0 30px;
+            width: 50px;
+            height: 50px;
+            z-index: 8;
+        }
+
+        .mountain-top:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            border-style: solid;
+            border-width: 0 50px 20px 50px;
+            border-color: transparent transparent #50b4ff transparent;
+            transform: rotate(-125deg);
+        }
+
+        .mountain-top:before {
+            content: '';
+            position: absolute;
+            left: -5px;
+            top: 0;
+            border-style: solid;
+            border-width: 0 50px 20px 50px;
+            border-color: transparent transparent #50b4ff transparent;
+            transform: rotate(30deg);
+        }
+
+        .first-bg {
+            position: absolute;
+            left: -10%;
+            top: 50%;
+            margin-top: 120px;
+            width: 120%;
+            height: 10px;
+            border-bottom: 580px solid #104166;
+            border-left: 8px solid transparent;
+            border-right: 14px solid transparent;
+            height: 0;
+            transform: rotate(2deg);
+            z-index: 100;
+        }
+
+        .first-bg-anim {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: auto;
+        }
+
+        .first {
+            position: absolute;
+            left: -10%;
+            bottom: -5px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 160px 60px 80px;
+            border-color: transparent transparent #104166 transparent;
+            animation: first-rock 30s infinite;
+            animation-fill-mode: forwards;
+            animation-timing-function: linear;
+        }
+
+        .first:before {
+            content: '';
+            position: absolute;
+            left: 0px;
+            top: 30px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 60px 20px 40px;
+            border-color: transparent transparent #0c4a78 transparent;
+            transform: rotate(-160deg);
+        }
+
+        .second {
+            position: absolute;
+            left: -10%;
+            bottom: -5px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 80px 80px 160px;
+            border-color: transparent transparent #104166 transparent;
+            animation: first-rock 30s infinite;
+            animation-delay: 8s;
+            animation-fill-mode: forwards;
+            animation-timing-function: linear;
+        }
+
+        .second:before {
+            content: '';
+            position: absolute;
+            left: -30px;
+            top: 35px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 20px 40px 60px;
+            border-color: transparent transparent #0c4a78 transparent;
+            transform: rotate(-135deg);
+        }
+
+        .third {
+            position: absolute;
+            left: -10%;
+            bottom: -5px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 160px 60px 80px;
+            border-color: transparent transparent #104166 transparent;
+            animation: first-rock 30s infinite;
+            animation-delay: 16s;
+            animation-fill-mode: forwards;
+            animation-timing-function: linear;
+        }
+
+        .third:before {
+            content: '';
+            position: absolute;
+            left: 0px;
+            top: 30px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 60px 20px 40px;
+            border-color: transparent transparent #0c4a78 transparent;
+            transform: rotate(-160deg);
+        }
+
+        .last {
+            position: absolute;
+            left: -10%;
+            bottom: -5px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 80px 80px 160px;
+            border-color: transparent transparent #104166 transparent;
+            animation: first-rock 30s infinite;
+            animation-delay: 24s;
+            animation-fill-mode: forwards;
+            animation-timing-function: linear;
+        }
+
+        .last:before {
+            content: '';
+            position: absolute;
+            left: -30px;
+            top: 35px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 20px 40px 60px;
+            border-color: transparent transparent #0c4a78 transparent;
+            transform: rotate(-135deg);
+        }
+
+        .second-bg-anim {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: auto;
+        }
+
+        .first-rock-content {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            animation: rock 20s infinite;
+            animation-fill-mode: forwards;
+            animation-timing-function: linear;
+        }
+
+        .second-rock-content {
+            position: absolute;
+            left: -100%;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            animation: rock 20s infinite;
+            animation-fill-mode: forwards;
+            animation-timing-function: linear;
+        }
+
+        .rock {
+            position: absolute;
+            overflow: hidden;
+        }
+
+        .rock:before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            border-radius: 50px;
+            background: #0c4a78;
+        }
+
+        .rock-middle {
+            width: 60px;
+            height: 10px;
+        }
+
+        .rock-middle:before {
+            margin: 0 0 0 -50px;
+            width: 100px;
+            height: 100px;
+        }
+
+        .rock-big {
+            width: 76px;
+            height: 22px;
+        }
+
+        .rock-big:before {
+            margin: 0 0 0 -50px;
+            width: 100px;
+            height: 100px;
+        }
+
+        .rock-content {
+            position: absolute;
+            top: 0;
+            width: 25%;
+            height: 100%;
+        }
+
+        .rock-content-1 {
+            display: block;
+            left: 0;
+        }
+
+        .rock-content-2 {
+            display: block;
+            left: 20%;
+            top: -20px;
+        }
+
+        .rock-content-3 {
+            display: none;
+            left: 40%;
+            top: 30px;
+        }
+
+        .rock-content-4 {
+            left: 60%;
+            top: -20px;
+        }
+
+        .rock-content-5 {
+            left: 80%;
+        }
+
+        .rock-content-6 {
+            display: none;
+            left: 90%;
+        }
+
+        .rock-1 {
+            left: 70%;
+            top: 240px;
+        }
+
+        .rock-2 {
+            left: 40%;
+            top: 150px;
+        }
+
+        .rock-3 {
+            display: none;
+            left: 90%;
+            top: 70px;
+        }
+
+        .rock-7 {
+            left: 32%;
+            top: 50px;
+        }
+
+        .rock-8 {
+            left: 64%;
+            top: 110px;
+            display: none;
+        }
+
+        .rock-9 {
+            left: 80%;
+            top: 130px;
+            display: none;
+        }
+
+        .rock-10 {
+            left: 74%;
+            top: 200px;
+            display: none;
+        }
+
+        .rock-11 {
+            left: 87%;
+            top: 170px;
+        }
+
+        .rock-12 {
+            left: 35%;
+            top: 240px;
+            display: none;
+        }
+
+        .rock-13 {
+            left: 45%;
+            top: 100px;
+            display: none;
+        }
+
+        .rock-14 {
+            left: 65%;
+            top: 40px;
+        }
+
+        .space-ship {
+            position: absolute;
+            left: -30%;
+            top: 20%;
+            width: 97px;
+            height: 32px;
+            background: #104166;
+            z-index: 1000;
+            filter: blur(5px);
+        }
+
+        .space-ship:before {
+            content: '';
+            position: absolute;
+            left: -9px;
+            top: 50%;
+            margin: -11px 0 0 0;
+            width: 9px;
+            height: 22px;
+            background: #104166;
+        }
+
+        .space-ship:after {
+            content: '';
+            position: absolute;
+            left: 100%;
+            top: 0;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 32px 0 0 108px;
+            border-color: transparent transparent transparent #104166;
+        }
+
+        .space-ship-small {
+            animation: ship 4s infinite;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease-in;
+            animation-delay: 4s;
+        }
+
+        .space-ship-big {
+            left: -30%;
+            top: 50%;
+            transform: scale(2.5);
+            animation: ship 2s infinite;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease-in;
+            animation-delay: 4s;
+        }
+
+        .space-ship-wing {
+            position: absolute;
+            left: 27px;
+            top: -14px;
+            width: 50px;
+            height: 25px;
+            background: #22689d;
+            z-index: 2;
+        }
+
+        .space-ship-wing:after {
+            content: '';
+            position: absolute;
+            left: 100%;
+            top: 0;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 25px 0 0 37px;
+            border-color: transparent transparent transparent #22689d;
+        }
+
+        .space-ship-bg {
+            position: absolute;
+            left: 32px;
+            top: 100%;
+            width: 60px;
+            height: 18px;
+            background: #104166;
+        }
+
+        .space-ship-bg:before, .space-ship-bg:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            width: 0;
+            height: 0;
+            border-style: solid;
+        }
+
+        .space-ship-bg:before {
+            left: -12px;
+            border-width: 0 12px 18px 0;
+            border-color: transparent #104166 transparent transparent;
+        }
+
+        .space-ship-bg:after {
+            right: -12px;
+            border-width: 18px 12px 0 0;
+            border-color: #104166 transparent transparent transparent;
+        }
+
+        .space-ship-gun {
+            position: absolute;
+            left: 17px;
+            top: 1px;
+            width: 30px;
+            height: 10px;
+            background: #22689d;
+            z-index: 2;
+        }
+
+        .space-ship-gun:after {
+            content: '';
+            position: absolute;
+            left: 100%;
+            bottom: 1px;
+            width: 94px;
+            height: 4px;
+            background: #22689d;
+        }
+
+        .at-at {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin: -135px 0 0 -120px;
+            width: 250px;
+            height: 114px;
+            z-index: 95;
+        }
+
+        .at-at-content {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            z-index: 10;
+        }
+
+        .dark-bg {
+            position: absolute;
+            right: 50px;
+            bottom: -10px;
+            width: 145px;
+            height: 104px;
+            background: #104166;
+        }
+
+        .dark-bg:before, .dark-bg:after {
+            content: '';
+            position: absolute;
+            bottom: -22px;
+            width: 60px;
+            height: 60px;
+            border-radius: 30px;
+            background: #104166;
+        }
+
+        .dark-bg:before {
+            left: -43px;
+        }
+
+        .dark-bg:after {
+            right: -45px;
+        }
+
+        .dark-bg-right {
+            position: absolute;
+            left: 100%;
+            bottom: 0;
+            width: 50px;
+            height: 50px;
+            background: #104166;
+        }
+
+        .dark-bg-right:after {
+            content: '';
+            position: absolute;
+            right: -14px;
+            top: 0;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 50px 14px 0 0;
+            border-color: #104166 transparent transparent transparent;
+        }
+
+        .dark-bg-right:before {
+            content: '';
+            position: absolute;
+            right: -14px;
+            top: -18px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 18px 0 0 54px;
+            border-color: transparent transparent transparent #104166;
+        }
+
+        .at-at-body {
+            position: absolute;
+            left: 75px;
+            top: -16px;
+            margin-top: 15px;
+            width: 100px;
+            height: 96px;
+            background: #fff;
+            z-index: 20;
+            animation: at-at-body 2.5s infinite;
+            animation-timing-function: ease-out;
+        }
+
+        .at-at-body-bg {
+            position: absolute;
+            left: 7px;
+            bottom: 7px;
+            padding: 4px 5px 0 65px;
+            width: 86px;
+            height: 32px;
+            border-radius: 6px;
+            background: #9fd6ff;
+        }
+
+        .at-at-body-bg .i {
+            position: absolute;
+            left: 6px;
+            top: 12px;
+            width: 4px;
+            height: 8px;
+            border-radius: 2px;
+            background: #104166;
+        }
+
+        .at-at-body-bg > i {
+            float: right;
+            margin: 0 0 2px 0;
+            width: 16px;
+            height: 4px;
+            border-radius: 2px;
+            background: #104166;
+        }
+
+        .at-at-body-bg-first-block {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 35%;
+            height: 57px;
+            border-right: 2px solid #9fd6ff;
+        }
+
+        .at-at-body-bg-first-block i {
+            position: absolute;
+            width: 4px;
+            height: 8px;
+            border-radius: 2px;
+            background: #9fd6ff;
+        }
+
+        .at-at-body-bg-first-block-item-1 {
+            left: 9px;
+            top: 10px;
+        }
+
+        .at-at-body-bg-first-block-item-2 {
+            left: 15px;
+            top: 10px;
+        }
+
+        .at-at-body-bg-first-block-item-3 {
+            left: 15px;
+            top: 34px;
+        }
+
+        .at-at-body-bg-second-block {
+            position: absolute;
+            left: 35%;
+            top: 0;
+            width: 30%;
+            height: 57px;
+        }
+
+        .at-at-body-bg-second-block i {
+            position: absolute;
+            width: 4px;
+            height: 8px;
+            border-radius: 2px;
+            background: #9fd6ff;
+        }
+
+        .at-at-body-bg-second-block-item-1 {
+            left: 18px;
+            top: 10px;
+        }
+
+        .at-at-body-bg-second-block-item-2 {
+            left: 8px;
+            top: 34px;
+        }
+
+        .at-at-body-bg-third-block {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 35%;
+            height: 57px;
+            border-left: 2px solid #9fd6ff;
+        }
+
+        .at-at-body-bg-third-block i {
+            position: absolute;
+            width: 4px;
+            height: 8px;
+            border-radius: 2px;
+            background: #9fd6ff;
+        }
+
+        .at-at-body-bg-third-block-item-1 {
+            left: 10px;
+            top: 10px;
+        }
+
+        .at-at-body-bg-third-block-item-2 {
+            left: 16px;
+            top: 10px;
+        }
+
+        .at-at-body-bg-third-block-item-3 {
+            left: 5px;
+            top: 34px;
+        }
+
+        .at-at-head {
+            position: absolute;
+            right: 100%;
+            bottom: -5px;
+            margin: 0 88px 0 0;
+            width: 64px;
+            height: 38px;
+            background: #fff;
+        }
+
+        .at-at-neck {
+            position: absolute;
+            left: 100%;
+            bottom: 10px;
+            width: 34px;
+            height: 36px;
+        }
+
+        .neck-bg {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: #104166;
+        }
+
+        .neck-bg:after {
+            content: '';
+            position: absolute;
+            top: -15px;
+            left: 0;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 0 15px 34px;
+            border-color: transparent transparent #104166 transparent;
+        }
+
+        .neck-ribs {
+            position: absolute;
+            left: 0;
+            top: -2px;
+            width: 100%;
+            height: 40px;
+            z-index: 2;
+            overflow: hidden;
+        }
+
+        .neck-ribs i {
+            float: left;
+            margin: 0 0 0 2px;
+            width: 6px;
+            height: 100%;
+            background: #9fd6ff;
+        }
+
+        .neck-cable-first {
+            position: absolute;
+            left: -6px;
+            top: 0px;
+            width: 8px;
+            height: 200%;
+            background: #fff;
+            transform: rotate(-20deg);
+        }
+
+        .neck-cable-second {
+            position: absolute;
+            left: 16px;
+            top: 0px;
+            width: 8px;
+            height: 200%;
+            background: #fff;
+            transform: rotate(-20deg);
+        }
+
+        .neck-cable-last {
+            position: absolute;
+            left: 32px;
+            top: 0px;
+            width: 8px;
+            height: 200%;
+            background: #fff;
+            transform: rotate(20deg);
+        }
+
+        .head-bg {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 10;
+        }
+
+        .head-bg i {
+            position: absolute;
+            width: 4px;
+            height: 8px;
+            border-radius: 2px;
+            background: #9fd6ff;
+        }
+
+        .head-bg-first {
+            right: 6px;
+            top: -6px;
+        }
+
+        .head-bg-second {
+            right: 6px;
+            bottom: 7px;
+        }
+
+        .head-snout {
+            position: absolute;
+            left: 5px;
+            top: 3px;
+            width: 34px;
+            height: 34px;
+            border-radius: 18px;
+            border: 3px solid #9fd6ff;
+        }
+
+        .in-head-snout {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 14px;
+            height: 14px;
+            overflow: hidden;
+        }
+
+        .in-head-snout:after {
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 0;
+            border-radius: 20px;
+            width: 20px;
+            height: 20px;
+            border: 4px solid #9fd6ff;
+        }
+
+        .head-snout-gun {
+            position: absolute;
+            bottom: 2px;
+            left: -8px;
+            width: 16px;
+            height: 4px;
+            background: #9fd6ff;
+        }
+
+        .head-snout-gun:before {
+            content: '';
+            position: absolute;
+            left: -8px;
+            top: -2px;
+            width: 8px;
+            height: 8px;
+            background: #9fd6ff;
+        }
+
+        .head-snout-gun:after {
+            content: '';
+            position: absolute;
+            right: -12px;
+            top: -2px;
+            width: 12px;
+            height: 8px;
+            background: #9fd6ff;
+        }
+
+        .head {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 5;
+        }
+
+        .head:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: -15px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 0 15px 64px;
+            border-color: transparent transparent #fff transparent;
+        }
+
+        .head:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -16px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 0 38px 16px;
+            border-color: transparent transparent #fff transparent;
+        }
+
+        .head-chin {
+            position: absolute;
+            left: 5px;
+            bottom: -9px;
+            width: 18px;
+            height: 9px;
+            background: #fff;
+        }
+
+        .head-chin:before {
+            content: '';
+            position: absolute;
+            left: -6px;
+            top: 0;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 6px 9px 0;
+            border-color: transparent #fff transparent transparent;
+            z-index: 5;
+        }
+
+        .head-chin:after {
+            content: '';
+            position: absolute;
+            right: -18px;
+            top: 0;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 9px 18px 0 0;
+            border-color: #fff transparent transparent transparent;
+        }
+
+        .head-chin-bg-first {
+            position: absolute;
+            left: 5px;
+            bottom: 0;
+            width: 4px;
+            height: 6px;
+            border-radius: 2px 2px 0 0;
+            background: #104166;
+        }
+
+        .head-chin-bg-second {
+            position: absolute;
+            left: 11px;
+            bottom: 0;
+            width: 4px;
+            height: 6px;
+            border-radius: 2px 2px 0 0;
+            background: #104166;
+        }
+
+        .head-gun {
+            position: absolute;
+            right: 20px;
+            bottom: 0;
+            width: 25px;
+            height: 4px;
+            background: #104166;
+            z-index: 5;
+            animation: fire-back 2.5s infinite;
+            animation-timing-function: ease-out;
+        }
+
+        .head-gun:after {
+            content: '';
+            position: absolute;
+            left: -8px;
+            top: -2px;
+            width: 8px;
+            height: 8px;
+            background: #2d445d;
+        }
+
+        .fire {
+            position: absolute;
+            left: -34px;
+            bottom: 1px;
+            width: 36px;
+            height: 2px;
+            animation: fire 2.5s infinite;
+            animation-timing-function: ease-out;
+        }
+
+        .fire i {
+            float: left;
+            margin: 0 0 0 4px;
+            width: 8px;
+            height: 2px;
+            background: #fff;
+        }
+
+        .head-left-bg {
+            position: absolute;
+            left: -16px;
+            top: 12px;
+            width: 8px;
+            height: 12px;
+            background: #2d445d;
+            transform: rotate(22deg);
+        }
+
+        .head-left-bg:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: -8px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 0 8px 8px;
+            border-color: transparent transparent #2d445d transparent;
+        }
+
+        .head-top-bg {
+            position: absolute;
+            left: 4px;
+            top: -12px;
+            display: block;
+            width: 32px;
+            height: 8px;
+            overflow: hidden;
+            z-index: 1;
+            transform: rotate(-14deg);
+        }
+
+        .head-top-bg:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 16px 50px 16px;
+            border-color: transparent transparent #2d445d transparent;
+        }
+
+        .at-at-body-left {
+            position: absolute;
+            right: 100%;
+            top: 28px;
+            margin: 0 4px 0 0;
+            width: 50px;
+            height: 68px;
+            background: #fff;
+        }
+
+        .at-at-body-left:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: -16px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 0 16px 50px;
+            border-color: transparent transparent #fff transparent;
+        }
+
+        .at-at-body-left-bg {
+            position: absolute;
+            left: 16px;
+            top: 16px;
+            width: 20px;
+            height: 24px;
+            border-radius: 6px;
+            background: #9fd6ff;
+        }
+
+        .at-at-body-left-bg-1, .at-at-body-left-bg-2, .at-at-body-left-bg-3, .at-at-body-left-bg-4, .at-at-body-left-bg-5 {
+            position: absolute;
+            width: 4px;
+            height: 8px;
+            border-radius: 2px;
+            background: #9fd6ff;
+        }
+
+        .at-at-body-left-bg-1 {
+            left: 21px;
+            top: 6px;
+        }
+
+        .at-at-body-left-bg-2 {
+            left: 27px;
+            top: 6px;
+        }
+
+        .at-at-body-left-bg-3 {
+            left: 39px;
+            top: 6px;
+        }
+
+        .at-at-body-left-bg-4 {
+            left: 7px;
+            bottom: 7px;
+        }
+
+        .at-at-body-left-bg-5 {
+            left: 13px;
+            bottom: 7px;
+        }
+
+        .at-at-body-right {
+            position: absolute;
+            left: 100%;
+            top: 31px;
+            margin: 0 0 0 4px;
+            width: 68px;
+            height: 65px;
+            background: #fff;
+        }
+
+        .at-at-body-right:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: -26px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 26px 0 0 68px;
+            border-color: transparent transparent transparent #fff;
+        }
+
+        .at-at-body-right-bg-1, .at-at-body-right-bg-2, .at-at-body-right-bg-3, .at-at-body-right-bg-4, .at-at-body-right-bg-5 {
+            position: absolute;
+            width: 4px;
+            height: 8px;
+            border-radius: 2px;
+            background: #9fd6ff;
+        }
+
+        .at-at-body-right-bg-1 {
+            left: 4px;
+            top: 4px;
+        }
+
+        .at-at-body-right-bg-2 {
+            left: 31px;
+            top: 4px;
+        }
+
+        .at-at-body-right-bg-3 {
+            left: 37px;
+            top: 4px;
+        }
+
+        .at-at-body-right-bg-4 {
+            left: 59px;
+            top: 4px;
+        }
+
+        .at-at-body-right-bg-5 {
+            left: 4px;
+            bottom: 7px;
+        }
+
+        .at-at-body-right-bg {
+            position: absolute;
+            right: 5px;
+            bottom: 7px;
+            width: 32px;
+            height: 32px;
+            border-radius: 6px;
+            background: #9fd6ff;
+        }
+
+        .at-at-body-right-bg:after {
+            content: '';
+            position: absolute;
+            right: 5px;
+            top: 5px;
+            width: 10px;
+            height: 10px;
+            background: #104166;
+        }
+
+        .at-at-body-bottom {
+            position: absolute;
+            right: 0;
+            top: 100%;
+            margin-top: 3px;
+            width: 60px;
+            height: 20px;
+            background: #fff;
+        }
+
+        .body-bottom-left {
+            position: absolute;
+            left: -40px;
+            top: 0;
+            width: 40px;
+            height: 20px;
+        }
+
+        .body-bottom-left:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 48px 16px 0;
+            border-color: transparent #fff transparent transparent;
+        }
+
+        .body-bottom-left:after {
+            content: '';
+            position: absolute;
+            left: 25px;
+            bottom: 0;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 15px 12px 0;
+            border-color: transparent #fff transparent transparent;
+        }
+
+        .at-at-body-bottom-bg {
+            padding: 4px 0 4px 15px;
+            width: 100%;
+            height: 100%;
+        }
+
+        .at-at-body-bottom-bg i {
+            float: left;
+            margin: 0 3px 0 0;
+            width: 4px;
+            height: 12px;
+            border-radius: 2px;
+            background: #104166;
+        }
+
+        .leg-front-back {
+            left: 30px;
+            z-index: 5;
+            animation: legs 10s infinite;
+            animation-delay: 5s;
+        }
+
+        .leg-front-back .leg-first {
+            animation: leg-first 10s infinite;
+            animation-delay: 5s;
+        }
+
+        .leg-front-back .leg-second {
+            animation: leg-second 10s infinite;
+            animation-delay: 5s;
+        }
+
+        .leg-front-back .in-second-leg {
+            animation: leg-foot 10s infinite;
+            animation-delay: 5s;
+        }
+
+        .leg-rear-back {
+            left: 203px;
+            z-index: 5;
+            animation: legs 10s infinite;
+            animation-delay: 7.5s;
+        }
+
+        .leg-rear-back .leg-first {
+            animation: leg-first 10s infinite;
+            animation-delay: 7.5s;
+        }
+
+        .leg-rear-back .leg-second {
+            animation: leg-second 10s infinite;
+            animation-delay: 7.5s;
+        }
+
+        .leg-rear-back .in-second-leg {
+            animation: leg-foot 10s infinite;
+            animation-delay: 7.5s;
+        }
+
+        .leg-front {
+            left: 30px;
+            z-index: 15;
+            animation: legs 10s infinite;
+        }
+
+        .leg-front .leg-first {
+            animation: leg-first 10s infinite;
+        }
+
+        .leg-front .leg-second {
+            animation: leg-second 10s infinite;
+        }
+
+        .leg-front .in-second-leg {
+            animation: leg-foot 10s infinite;
+        }
+
+        .leg-rear {
+            left: 203px;
+            z-index: 15;
+            animation: legs 10s infinite;
+            animation-delay: 2.5s;
+        }
+
+        .leg-rear .leg-first {
+            animation: leg-first 10s infinite;
+            animation-delay: 2.5s;
+        }
+
+        .leg-rear .leg-second {
+            animation: leg-second 10s infinite;
+            animation-delay: 2.5s;
+        }
+
+        .leg-rear .in-second-leg {
+            animation: leg-foot 10s infinite;
+            animation-delay: 2.5s;
+        }
+
+        .leg-content {
+            position: absolute;
+            bottom: -15px;
+            width: 40px;
+            height: 40px;
+        }
+
+        .leg-first-joint {
+            position: absolute;
+            left: -8px;
+            bottom: -8px;
+            border-radius: 20px;
+            border: 4px solid #fff;
+            width: 40px;
+            height: 40px;
+            background: #9fd6ff;
+            z-index: 2;
+        }
+
+        .leg-first-joint i {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            margin-top: -5px;
+            width: 100%;
+            height: 10px;
+            background: #fff;
+        }
+
+        .leg-first-joint i:after {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin: -2px 0 0 -4px;
+            width: 8px;
+            height: 4px;
+            background: #9fd6ff;
+        }
+
+        .leg-first {
+            position: absolute;
+            left: 0;
+            top: 35px;
+            width: 28px;
+            height: 60px;
+            background: #9fd6ff;
+            transform: rotate(-30deg);
+        }
+
+        .leg-first-hr-a, .leg-first-hr-b {
+            position: absolute;
+            left: 8px;
+            top: 0;
+            width: 2px;
+            height: 100%;
+            background: #104166;
+        }
+
+        .leg-first-hr-b {
+            left: auto;
+            right: 8px;
+        }
+
+        .in-first-leg {
+            position: absolute;
+            left: -6px;
+            bottom: -6px;
+            width: 40px;
+            height: 40px;
+        }
+
+        .leg-second-joint {
+            position: absolute;
+            left: 4px;
+            top: 20px;
+            border-radius: 20px;
+            border: 4px solid #fff;
+            width: 32px;
+            height: 32px;
+            background: #9fd6ff;
+            z-index: 2;
+        }
+
+        .leg-second-joint i {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            margin-top: -3px;
+            width: 100%;
+            height: 6px;
+            background: #fff;
+        }
+
+        .leg-second {
+            position: absolute;
+            left: 6px;
+            top: 30px;
+            width: 28px;
+            height: 50px;
+            background: #9fd6ff;
+        }
+
+        .leg-second-hr {
+            position: absolute;
+            left: 50%;
+            top: 0;
+            margin: 0 0 0 -3px;
+            width: 6px;
+            height: 60%;
+            border-radius: 0 0 4px 4px;
+            background: #104166;
+        }
+
+        .in-second-leg {
+            position: absolute;
+            left: 0px;
+            bottom: -15px;
+            width: 40px;
+            height: 40px;
+            transform: rotate(30deg);
+        }
+
+        .foot-joint {
+            position: absolute;
+            left: 0px;
+            top: 2px;
+            width: 40px;
+            height: 18px;
+            overflow: hidden;
+            z-index: 2;
+        }
+
+        .foot-ankle {
+            position: relative;
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+
+        .foot-ankle:before, .foot-ankle:after {
+            content: '';
+            position: absolute;
+            bottom: 2px;
+            width: 8px;
+            height: 8px;
+            border-radius: 4px;
+            background: #9fd6ff;
+            z-index: 4;
+        }
+
+        .foot-ankle:before {
+            left: 9px;
+        }
+
+        .foot-ankle:after {
+            right: 9px;
+        }
+
+        .foot-ankle-bg {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 20px 100px 20px;
+            border-color: transparent transparent #fff transparent;
+        }
+
+        .foot-ankle-bottom {
+            position: absolute;
+            top: 18px;
+            width: 40px;
+            height: 8px;
+            overflow: hidden;
+            z-index: 2;
+        }
+
+        .foot-ankle-bottom:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 1px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 40px 20px 0 20px;
+            border-color: #fff transparent transparent transparent;
+        }
+
+        .foot-ankle-space {
+            position: absolute;
+            left: -5px;
+            top: 14px;
+            width: 50px;
+            height: 26px;
+            border-radius: 20px 20px 0 0;
+            border: 8px solid #9fd6ff;
+            border-bottom: 3px solid #9fd6ff;
+        }
+
+        .foot {
+            position: absolute;
+            left: 50%;
+            top: 30px;
+            margin: 0 0 0 -12px;
+            width: 24px;
+            height: 37px;
+            background: #fff;
+        }
+
+        .foot-bottom {
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            margin: 0 0 0 -27px;
+            width: 54px;
+            height: 18px;
+            overflow: hidden;
+            z-index: 2;
+        }
+
+        .foot-bottom:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 27px 100px 27px;
+            border-color: transparent transparent #fff transparent;
+        }
+
+        .foot-bottom:after {
+            content: '';
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            margin: 0 0 0 -8px;
+            width: 16px;
+            height: 4px;
+            background: #9fd6ff;
+        }
+
+        .foot-land {
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            margin: 0 0 0 -40px;
+            width: 80px;
+            height: 10px;
+            overflow: hidden;
+        }
+
+        .foot-land:before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            margin: 0 0 0 -60px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 60px 10px 60px;
+            border-color: transparent transparent #9fd6ff transparent;
+        }
+
+        .leg-front-back .leg-first-joint {
+            border-color: #104166;
+            background: #104166;
+        }
+
+        .leg-front-back .leg-first-joint i {
+            display: none;
+        }
+
+        .leg-front-back .leg-first {
+            background: #104166;
+        }
+
+        .leg-front-back .leg-second-joint {
+            border-color: #22689d;
+            background: #22689d;
+        }
+
+        .leg-front-back .leg-second-joint i {
+            display: none;
+        }
+
+        .leg-front-back .leg-second {
+            background: #104166;
+        }
+
+        .leg-front-back .foot-joint .foot-ankle:before, .leg-front-back .foot-joint .foot-ankle:after {
+            display: none;
+        }
+
+        .leg-front-back .foot-joint .foot-ankle-bg {
+            border-color: transparent transparent #22689d transparent;
+        }
+
+        .leg-front-back .foot-ankle-bottom:after {
+            border-color: #22689d transparent transparent transparent;
+        }
+
+        .leg-front-back .foot-ankle-space {
+            border: 8px solid #104166;
+            border-bottom: 3px solid #104166;
+        }
+
+        .leg-front-back .foot {
+            background: #22689d;
+        }
+
+        .leg-front-back .foot-bottom:before {
+            border-color: transparent transparent #22689d transparent;
+        }
+
+        .leg-front-back .foot-bottom:after {
+            background: #104166;
+        }
+
+        .leg-front-back .foot-land:before {
+            border-color: transparent transparent #104166 transparent;
+        }
+
+        @keyframes ship {
+            0% {
+                left: -30%;
+            }
+            100% {
+                left: 1000%;
+            }
+        }
+
+        @keyframes rock {
+            0% {
+                margin-left: 0%;
+            }
+            100% {
+                margin-left: 100%;
+            }
+        }
+
+        @keyframes first-rock {
+            0% {
+                left: -10%;
+            }
+            100% {
+                left: 110%;
+            }
+        }
+
+        @keyframes fire-back {
+            0% {
+                width: 25px;
+            }
+            40% {
+                width: 25px;
+            }
+            45% {
+                width: 20px;
+            }
+            50% {
+                width: 25px;
+            }
+            100% {
+                width: 25px;
+            }
+        }
+
+        @keyframes fire {
+            0% {
+                left: -34px;
+            }
+            50% {
+                left: -34px;
+            }
+            100% {
+                left: -1000px;
+            }
+        }
+
+        @keyframes at-at-body {
+            0% {
+                margin-top: 15px;
+            }
+            20% {
+                margin-top: 10px;
+            }
+            75% {
+                margin-top: 10px;
+            }
+            80% {
+                margin-top: 15px;
+            }
+            100% {
+                margin-top: 15px;
+            }
+        }
+
+        @keyframes legs {
+            0% {
+                bottom: -15px;
+            }
+            10% {
+                bottom: -5px;
+            }
+            15% {
+                bottom: -5px;
+            }
+            25% {
+                bottom: -15px;
+            }
+        }
+
+        @keyframes leg-first {
+            0% {
+                left: 0px;
+                transform: rotate(-30deg);
+            }
+            15% {
+                left: 0;
+                top: 20px;
+                height: 50px;
+                transform: rotate(40deg);
+            }
+            30% {
+                left: 0;
+                top: 20px;
+                height: 60px;
+                transform: rotate(40deg);
+            }
+        }
+
+        @keyframes leg-second {
+            0% {
+                top: 30px;
+                left: 6px;
+                height: 50px;
+                transform: rotate(0deg);
+            }
+            15% {
+                top: 50px;
+                left: 10px;
+                height: 50px;
+                transform: rotate(-60deg);
+            }
+            25% {
+                top: 45px;
+                left: 5px;
+                height: 50px;
+                transform: rotate(0deg);
+            }
+            33% {
+                top: 45px;
+                left: 5px;
+                height: 50px;
+                transform: rotate(0deg);
+            }
+            50% {
+                height: 30px;
+            }
+            60% {
+                height: 35px;
+            }
+        }
+
+        @keyframes leg-foot {
+            0% {
+                left: 0px;
+                bottom: -15px;
+                transform: rotate(30deg);
+            }
+            15% {
+                left: -5px;
+                bottom: -25px;
+                transform: rotate(10deg);
+            }
+            20% {
+                left: -5px;
+                bottom: -40px;
+                transform: rotate(-35deg);
+            }
+            25% {
+                left: -5px;
+                bottom: -40px;
+                transform: rotate(-35deg);
+            }
+            33% {
+                left: -5px;
+                bottom: -40px;
+                transform: rotate(-30deg);
+            }
+        }
+
+        @media screen and (max-width: 1025px), screen and (max-height: 500px) {
+            .at-at {
+                margin-top: -95px;
+                transform: scale(0.8);
+            }
+            .mountain-first {
+                left: -80px;
+                transform: scale(0.8);
+            }
+            .mountain-second {
+                right: -100px;
+                transform: scale(0.8);
+            }
+            .first-bg-anim .second {
+                display: none;
+            }
+            .first-bg-anim .last {
+                display: none;
+            }
+        }
+
+        @media screen and (max-width: 740px), screen and (max-height: 500px) {
+            section {
+                min-height: 0;
+            }
+            .at-at {
+                margin-top: -35px;
+                transform: scale(0.5);
+            }
+            .moon {
+                position: absolute;
+                left: 50%;
+                top: 25%;
+                margin: -60px 0 0 -180px;
+                width: 100px;
+                height: 100px;
+            }
+            .mountain-first {
+                left: -150px;
+                margin-top: -170px;
+                transform: scale(0.5);
+            }
+            .mountain-second {
+                right: -180px;
+                margin-top: -160px;
+                transform: scale(0.5);
+            }
+        }
+
+        @media screen and (max-width: 500px), screen and (max-height: 400px) {
+            .moon {
+                margin: -60px 0 0 -100px;
+            }
+            .first-bg-anim .third {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="star-wars-banner">
+        <section>
+            <div class="at-at">
+                <div class="at-at-content">
+                    <div class="at-at-body">
+                        <div class="at-at-head">
+                            <div class="at-at-neck">
+                                <div class="neck-ribs">
+                                    <div class="neck-cable-first"></div>
+                                    <div class="neck-cable-second"></div>
+                                    <div class="neck-cable-last"></div>
+                                    <i></i><i></i><i></i><i></i>
+                                </div>
+                                <div class="neck-bg"></div>
+                            </div>
+                            <div class="head-bg">
+                                <div class="head-snout">
+                                    <div class="in-head-snout"></div>
+                                    <div class="head-snout-gun"></div>
+                                </div>
+                                <i class="head-bg-first"></i>
+                                <i class="head-bg-second"></i>
+                            </div>
+                            <div class="head">
+                                <div class="head-chin">
+                                    <i class="head-chin-bg-first"></i>
+                                    <i class="head-chin-bg-second"></i>
+                                    <i class="head-gun"></i>
+                                    <i class="fire"><i></i><i></i><i></i></i>
+                                </div>
+                            </div>
+                            <i class="head-left-bg"></i>
+                            <i class="head-top-bg"></i>
+                        </div>
+                        <div class="at-at-body-left">
+                            <i class="at-at-body-left-bg-1"></i>
+                            <i class="at-at-body-left-bg-2"></i>
+                            <i class="at-at-body-left-bg-3"></i>
+                            <i class="at-at-body-left-bg-4"></i>
+                            <i class="at-at-body-left-bg-5"></i>
+                            <div class="at-at-body-left-bg"></div>
+                        </div>
+                        <div class="at-at-body-right">
+                            <i class="at-at-body-right-bg-1"></i>
+                            <i class="at-at-body-right-bg-2"></i>
+                            <i class="at-at-body-right-bg-3"></i>
+                            <i class="at-at-body-right-bg-4"></i>
+                            <i class="at-at-body-right-bg-5"></i>
+                            <div class="at-at-body-right-bg"></div>
+                        </div>
+                        <div class="at-at-body-bottom">
+                            <div class="at-at-body-bottom-bg"><i></i><i></i><i></i></div>
+                            <div class="body-bottom-left"></div>
+                        </div>
+                        <div class="at-at-body-bg">
+                            <i></i><i></i><i></i><i></i>
+                            <div class="i"></div>
+                        </div>
+                        <div class="at-at-body-bg-first-block">
+                            <i class="at-at-body-bg-first-block-item-1"></i>
+                            <i class="at-at-body-bg-first-block-item-2"></i>
+                            <i class="at-at-body-bg-first-block-item-3"></i>
+                        </div>
+                        <div class="at-at-body-bg-second-block">
+                            <i class="at-at-body-bg-second-block-item-1"></i>
+                            <i class="at-at-body-bg-second-block-item-2"></i>
+                        </div>
+                        <div class="at-at-body-bg-third-block">
+                            <i class="at-at-body-bg-third-block-item-1"></i>
+                            <i class="at-at-body-bg-third-block-item-2"></i>
+                            <i class="at-at-body-bg-third-block-item-3"></i>
+                        </div>
+                    </div>
+                    <div class="dark-bg">
+                        <i class="dark-bg-right"></i>
+                    </div>
+                </div>
+                <div class="leg-content leg-front">
+                    <div class="leg-first-joint"><i></i></div>
+                    <div class="leg-first">
+                        <i class="leg-first-hr-a"></i>
+                        <i class="leg-first-hr-b"></i>
+                        <div class="in-first-leg">
+                            <div class="leg-second-joint"><i></i></div>
+                            <div class="leg-second">
+                                <i class="leg-second-hr"></i>
+                                <div class="in-second-leg">
+                                    <div class="foot-joint"><i class="foot-ankle"><i class="foot-ankle-bg"></i></i></div>
+                                    <div class="foot-ankle-bottom"></div>
+                                    <div class="foot-ankle-space"></div>
+                                    <div class="foot">
+                                        <div class="foot-bottom"></div>
+                                        <div class="foot-land"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="leg-content leg-rear">
+                    <div class="leg-first-joint"><i></i></div>
+                    <div class="leg-first">
+                        <i class="leg-first-hr-a"></i>
+                        <i class="leg-first-hr-b"></i>
+                        <div class="in-first-leg">
+                            <div class="leg-second-joint"><i></i></div>
+                            <div class="leg-second">
+                                <i class="leg-second-hr"></i>
+                                <div class="in-second-leg">
+                                    <div class="foot-joint"><i class="foot-ankle"><i class="foot-ankle-bg"></i></i></div>
+                                    <div class="foot-ankle-bottom"></div>
+                                    <div class="foot-ankle-space"></div>
+                                    <div class="foot">
+                                        <div class="foot-bottom"></div>
+                                        <div class="foot-land"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="leg-content leg-front-back">
+                    <div class="leg-first-joint"><i></i></div>
+                    <div class="leg-first">
+                        <i class="leg-first-hr-a"></i>
+                        <i class="leg-first-hr-b"></i>
+                        <div class="in-first-leg">
+                            <div class="leg-second-joint"><i></i></div>
+                            <div class="leg-second">
+                                <i class="leg-second-hr"></i>
+                                <div class="in-second-leg">
+                                    <div class="foot-joint"><i class="foot-ankle"><i class="foot-ankle-bg"></i></i></div>
+                                    <div class="foot-ankle-bottom"></div>
+                                    <div class="foot-ankle-space"></div>
+                                    <div class="foot">
+                                        <div class="foot-bottom"></div>
+                                        <div class="foot-land"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="leg-content leg-rear-back">
+                    <div class="leg-first-joint"><i></i></div>
+                    <div class="leg-first">
+                        <i class="leg-first-hr-a"></i>
+                        <i class="leg-first-hr-b"></i>
+                        <div class="in-first-leg">
+                            <div class="leg-second-joint"><i></i></div>
+                            <div class="leg-second">
+                                <i class="leg-second-hr"></i>
+                                <div class="in-second-leg">
+                                    <div class="foot-joint"><i class="foot-ankle"><i class="foot-ankle-bg"></i></i></div>
+                                    <div class="foot-ankle-bottom"></div>
+                                    <div class="foot-ankle-space"></div>
+                                    <div class="foot">
+                                        <div class="foot-bottom"></div>
+                                        <div class="foot-land"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg">
+                <i class="star star-1"></i>
+                <i class="star star-2"></i>
+                <i class="star star-3"></i>
+                <i class="star star-4"></i>
+                <i class="star star-5"></i>
+                <i class="star star-6"></i>
+                <i class="star-small star-small-1"></i>
+                <i class="star-small star-small-2"></i>
+                <i class="star-small star-small-3"></i>
+                <i class="star-small star-small-4"></i>
+                <i class="star-small star-small-5"></i>
+                <i class="star-small star-small-6"></i>
+                <i class="star-small star-small-7"></i>
+                <i class="star-small star-small-8"></i>
+                <i class="star-small star-small-9"></i>
+                <i class="star-small star-small-10"></i>
+            </div>
+            <i class="moon"></i>
+            <i class="mountain-first">
+                <i class="mountain-shadow"></i>
+            </i>
+            <i class="mountain-second">
+                <i class="mountain-shadow"></i>
+                <span class="mountain-top"></span>
+            </i>
+            <div class="first-bg">
+                <div class="first-bg-anim">
+                    <i class="first"></i>
+                    <i class="second"></i>
+                    <i class="third"></i>
+                    <i class="last"></i>
+                </div>
+                <div class="second-bg-anim">
+                    <div class="first-rock-content">
+                        <div class="rock-content rock-content-1">
+                            <i class="rock rock-big rock-1"></i>
+                            <i class="rock rock-big rock-2"></i>
+                            <i class="rock rock-big rock-3"></i>
+                            <i class="rock rock-middle rock-7"></i>
+                            <i class="rock rock-middle rock-8"></i>
+                            <i class="rock rock-middle rock-9"></i>
+                            <i class="rock rock-middle rock-10"></i>
+                            <i class="rock rock-middle rock-11"></i>
+                            <i class="rock rock-middle rock-12"></i>
+                            <i class="rock rock-middle rock-13"></i>
+                            <i class="rock rock-middle rock-14"></i>
+                        </div>
+                        <div class="rock-content rock-content-2">
+                            <i class="rock rock-big rock-1"></i>
+                            <i class="rock rock-big rock-2"></i>
+                            <i class="rock rock-big rock-3"></i>
+                            <i class="rock rock-middle rock-7"></i>
+                            <i class="rock rock-middle rock-8"></i>
+                            <i class="rock rock-middle rock-9"></i>
+                            <i class="rock rock-middle rock-10"></i>
+                            <i class="rock rock-middle rock-11"></i>
+                            <i class="rock rock-middle rock-12"></i>
+                            <i class="rock rock-middle rock-13"></i>
+                            <i class="rock rock-middle rock-14"></i>
+                        </div>
+                        <div class="rock-content rock-content-3">
+                            <i class="rock rock-big rock-1"></i>
+                            <i class="rock rock-big rock-2"></i>
+                            <i class="rock rock-big rock-3"></i>
+                            <i class="rock rock-middle rock-7"></i>
+                            <i class="rock rock-middle rock-8"></i>
+                            <i class="rock rock-middle rock-9"></i>
+                            <i class="rock rock-middle rock-10"></i>
+                            <i class="rock rock-middle rock-11"></i>
+                            <i class="rock rock-middle rock-12"></i>
+                            <i class="rock rock-middle rock-13"></i>
+                            <i class="rock rock-middle rock-14"></i>
+                        </div>
+                        <div class="rock-content rock-content-4">
+                            <i class="rock rock-big rock-1"></i>
+                            <i class="rock rock-big rock-2"></i>
+                            <i class="rock rock-big rock-3"></i>
+                            <i class="rock rock-middle rock-7"></i>
+                            <i class="rock rock-middle rock-8"></i>
+                            <i class="rock rock-middle rock-9"></i>
+                            <i class="rock rock-middle rock-10"></i>
+                            <i class="rock rock-middle rock-11"></i>
+                            <i class="rock rock-middle rock-12"></i>
+                            <i class="rock rock-middle rock-13"></i>
+                            <i class="rock rock-middle rock-14"></i>
+                        </div>
+                        <div class="rock-content rock-content-5">
+                            <i class="rock rock-big rock-1"></i>
+                            <i class="rock rock-big rock-2"></i>
+                            <i class="rock rock-big rock-3"></i>
+                            <i class="rock rock-middle rock-7"></i>
+                            <i class="rock rock-middle rock-8"></i>
+                            <i class="rock rock-middle rock-9"></i>
+                            <i class="rock rock-middle rock-10"></i>
+                            <i class="rock rock-middle rock-11"></i>
+                            <i class="rock rock-middle rock-12"></i>
+                            <i class="rock rock-middle rock-13"></i>
+                            <i class="rock rock-middle rock-14"></i>
+                        </div>
+                        <div class="rock-content rock-content-6">
+                            <i class="rock rock-big rock-1"></i>
+                            <i class="rock rock-big rock-2"></i>
+                            <i class="rock rock-big rock-3"></i>
+                            <i class="rock rock-middle rock-7"></i>
+                            <i class="rock rock-middle rock-8"></i>
+                            <i class="rock rock-middle rock-9"></i>
+                            <i class="rock rock-middle rock-10"></i>
+                            <i class="rock rock-middle rock-11"></i>
+                            <i class="rock rock-middle rock-12"></i>
+                            <i class="rock rock-middle rock-13"></i>
+                            <i class="rock rock-middle rock-14"></i>
+                        </div>
+                    </div>
+                    <div class="second-rock-content">
+                        <div class="rock-content rock-content-1">
+                            <i class="rock rock-big rock-1"></i>
+                            <i class="rock rock-big rock-2"></i>
+                            <i class="rock rock-big rock-3"></i>
+                            <i class="rock rock-middle rock-7"></i>
+                            <i class="rock rock-middle rock-8"></i>
+                            <i class="rock rock-middle rock-9"></i>
+                            <i class="rock rock-middle rock-10"></i>
+                            <i class="rock rock-middle rock-11"></i>
+                            <i class="rock rock-middle rock-12"></i>
+                            <i class="rock rock-middle rock-13"></i>
+                            <i class="rock rock-middle rock-14"></i>
+                        </div>
+                        <div class="rock-content rock-content-2">
+                            <i class="rock rock-big rock-1"></i>
+                            <i class="rock rock-big rock-2"></i>
+                            <i class="rock rock-big rock-3"></i>
+                            <i class="rock rock-middle rock-7"></i>
+                            <i class="rock rock-middle rock-8"></i>
+                            <i class="rock rock-middle rock-9"></i>
+                            <i class="rock rock-middle rock-10"></i>
+                            <i class="rock rock-middle rock-11"></i>
+                            <i class="rock rock-middle rock-12"></i>
+                            <i class="rock rock-middle rock-13"></i>
+                            <i class="rock rock-middle rock-14"></i>
+                        </div>
+                        <div class="rock-content rock-content-3">
+                            <i class="rock rock-big rock-1"></i>
+                            <i class="rock rock-big rock-2"></i>
+                            <i class="rock rock-big rock-3"></i>
+                            <i class="rock rock-middle rock-7"></i>
+                            <i class="rock rock-middle rock-8"></i>
+                            <i class="rock rock-middle rock-9"></i>
+                            <i class="rock rock-middle rock-10"></i>
+                            <i class="rock rock-middle rock-11"></i>
+                            <i class="rock rock-middle rock-12"></i>
+                            <i class="rock rock-middle rock-13"></i>
+                            <i class="rock rock-middle rock-14"></i>
+                        </div>
+                        <div class="rock-content rock-content-4">
+                            <i class="rock rock-big rock-1"></i>
+                            <i class="rock rock-big rock-2"></i>
+                            <i class="rock rock-big rock-3"></i>
+                            <i class="rock rock-middle rock-7"></i>
+                            <i class="rock rock-middle rock-8"></i>
+                            <i class="rock rock-middle rock-9"></i>
+                            <i class="rock rock-middle rock-10"></i>
+                            <i class="rock rock-middle rock-11"></i>
+                            <i class="rock rock-middle rock-12"></i>
+                            <i class="rock rock-middle rock-13"></i>
+                            <i class="rock rock-middle rock-14"></i>
+                        </div>
+                        <div class="rock-content rock-content-5">
+                            <i class="rock rock-big rock-1"></i>
+                            <i class="rock rock-big rock-2"></i>
+                            <i class="rock rock-big rock-3"></i>
+                            <i class="rock rock-middle rock-7"></i>
+                            <i class="rock rock-middle rock-8"></i>
+                            <i class="rock rock-middle rock-9"></i>
+                            <i class="rock rock-middle rock-10"></i>
+                            <i class="rock rock-middle rock-11"></i>
+                            <i class="rock rock-middle rock-12"></i>
+                            <i class="rock rock-middle rock-13"></i>
+                            <i class="rock rock-middle rock-14"></i>
+                        </div>
+                        <div class="rock-content rock-content-6">
+                            <i class="rock rock-big rock-1"></i>
+                            <i class="rock rock-big rock-2"></i>
+                            <i class="rock rock-big rock-3"></i>
+                            <i class="rock rock-middle rock-7"></i>
+                            <i class="rock rock-middle rock-8"></i>
+                            <i class="rock rock-middle rock-9"></i>
+                            <i class="rock rock-middle rock-10"></i>
+                            <i class="rock rock-middle rock-11"></i>
+                            <i class="rock rock-middle rock-12"></i>
+                            <i class="rock rock-middle rock-13"></i>
+                            <i class="rock rock-middle rock-14"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="space-ship space-ship-small">
+                <i class="space-ship-wing"></i>
+                <i class="space-ship-bg"><i class="space-ship-gun"></i></i>
+            </div>
+            <div class="space-ship space-ship-big">
+                <i class="space-ship-wing"></i>
+                <i class="space-ship-bg"><i class="space-ship-gun"></i></i>
+            </div>
+        </section>
+        <h1>Willian C. Nunes</h1>
+        <p>Um Jedi da Tecnologia em busca de novos desafios!</p>
+    </div>
+    <div class="container fade-in">
+        <h1 class="pulsate">👨‍💻 Sobre: <i class="fas fa-helmet-darth-vader icon"></i></h1>
+        <p>
+            🔭 Tento ver a engenharia reversa das coisas, sim é estranho!<br>
+            📝 Fusion 360 para aprender projetar coisas personalizadas!<br>
+            🌱 Criando e testando aplicações web, apks, chatbot.<br>
+            💬 Todo dia eu tento criar alguma coisa nova, isso é bom?<br>
+            ⚡ Solucionando demandas diárias.<br>
+            🤝Procurando trabalho…<br>
+            🛵 Mas preciso mesmo é andar de moto!<br>
+        </p>
+        <div class="project-links">
+            <a href="https://wcnunes.github.io/badgers" class="glow-link">Crie um chachá engraçado!</a><br>
+            <a href="https://wcnunes.github.io/tarot" class="glow-link">Tire sua sorte hoje!</a><br>
+            <a href="https://wcnunes.github.io/escriba" class="glow-link">Cansado de formatar atas?</a><br>
+            <a href="https://github.com/wcnunes/wppflood" class="glow-link">Assuma a responsabilidade!</a><br>
+            <a href="https://github.com/wcnunes/safeshot-android" class="glow-link">Quer manter seguro os dados das fotos?</a><br>
+            <a href="https://github.com/wcnunes/lousaban" class="glow-link">Quadro KanBan</a><br>
+            <a href="https://wcnunes.github.io/eventbot/" class="glow-link">Gerenciador de eventos</a><br>
+            <a href="https://github.com/wcnunes/curiosos/blob/main/politica-de-privacidade.html" class="glow-link">Politica de privacidade</a><br>
+        </div>
+        <h2>🌐 Socials: <i class="fab fa-galactic-republic icon"></i></h2>
+        <div class="badge-container">
+            <a href="https://instagram.com/nunes_w1ll" class="badge"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram" style="width:24px; height:24px; vertical-align:middle; margin-right:6px;">Instagram</a>
+            <a href="https://linkedin.com/in/nunes20" class="badge"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" style="width:24px; height:24px; vertical-align:middle; margin-right:6px;">LinkedIn</a>
+            <a href="https://reddit.com/user/troop3rs" class="badge"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/reddit.svg" alt="Reddit" style="width:24px; height:24px; vertical-align:middle; margin-right:6px;">Reddit</a>
+            <a href="https://twitch.tv/unabomber_x" class="badge"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/twitch.svg" alt="Twitch" style="width:24px; height:24px; vertical-align:middle; margin-right:6px;">Twitch</a>
+            <a href="mailto:troopsofarchangel@gmail.com" class="badge"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/maildotru.svg" alt="Email" style="width:24px; height:24px; vertical-align:middle; margin-right:6px;">Email</a>
+            <a href="https://steamcommunity.com/id/und3rc0v3r" class="badge"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/steam.svg" alt="Steam" style="width:24px; height:24px; vertical-align:middle; margin-right:6px;">Steam</a>
+        </div>
+        <h2>💻 Tech Stack: <i class="fas fa-space-shuttle icon"></i></h2>
+        <div class="badge-container">
+            <span class="badge">Windows Terminal</span>
+            <span class="badge">TypeScript</span>
+            <span class="badge">Bash Script</span>
+            <span class="badge">Python</span>
+            <span class="badge">PHP</span>
+            <span class="badge">PowerShell</span>
+            <span class="badge">JavaScript</span>
+            <span class="badge">Kotlin</span>
+            <span class="badge">HTML5</span>
+            <span class="badge">AWS</span>
+            <span class="badge">Azure</span>
+            <span class="badge">Cloudflare</span>
+            <span class="badge">Firebase</span>
+            <span class="badge">Google Cloud</span>
+            <span class="badge">Netlify</span>
+            <span class="badge">Apache Spark</span>
+            <span class="badge">Flask</span>
+            <span class="badge">Flutter</span>
+            <span class="badge">jQuery</span>
+            <span class="badge">Laravel</span>
+            <span class="badge">NPM</span>
+            <span class="badge">NestJS</span>
+            <span class="badge">Next JS</span>
+            <span class="badge">NodeJS</span>
+            <span class="badge">OpenCV</span>
+            <span class="badge">React</span>
+            <span class="badge">React Native</span>
+            <span class="badge">TailwindCSS</span>
+            <span class="badge">Vite</span>
+            <span class="badge">Vue.js</span>
+            <span class="badge">WordPress</span>
+            <span class="badge">Yarn</span>
+            <span class="badge">Apache</span>
+            <span class="badge">Apache Tomcat</span>
+            <span class="badge">Nginx</span>
+            <span class="badge">Firebase</span>
+            <span class="badge">MariaDB</span>
+            <span class="badge">MongoDB</span>
+            <span class="badge">MySQL</span>
+            <span class="badge">Postgres</span>
+            <span class="badge">SQLite</span>
+            <span class="badge">Adobe Photoshop</span>
+            <span class="badge">Canva</span>
+            <span class="badge">Blender</span>
+            <span class="badge">Gimp</span>
+            <span class="badge">Inkscape</span>
+            <span class="badge">Krita</span>
+            <span class="badge">TensorFlow</span>
+            <span class="badge">Pandas</span>
+            <span class="badge">NumPy</span>
+            <span class="badge">PyTorch</span>
+            <span class="badge">Matplotlib</span>
+            <span class="badge">Git</span>
+            <span class="badge">GitHub</span>
+            <span class="badge">GitLab</span>
+            <span class="badge">GitLab CI</span>
+            <span class="badge">Ansible</span>
+            <span class="badge">Arduino</span>
+            <span class="badge">Cisco</span>
+            <span class="badge">Docker</span>
+            <span class="badge">Gradle</span>
+            <span class="badge">Grafana</span>
+            <span class="badge">Home Assistant</span>
+            <span class="badge">Jira</span>
+            <span class="badge">Meta</span>
+            <span class="badge">Notion</span>
+            <span class="badge">Pi-Hole</span>
+            <span class="badge">Power Bi</span>
+            <span class="badge">Prometheus</span>
+            <span class="badge">Raspberry Pi</span>
+            <span class="badge">Trello</span>
+            <span class="badge">Steam</span>
+        </div>
+        <h2>📊 GitHub Stats: <i class="fas fa-chart-bar icon"></i></h2>
+        <div class="stats-container">
+            <img src="https://github-readme-stats.vercel.app/api?username=wcnunes&theme=codeSTACKr&hide_border=false&include_all_commits=false&count_private=false" alt="GitHub Stats">
+            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wcnunes&theme=codeSTACKr&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="Top Languages">
+        </div>
+        <h2>🏆 GitHub Trophies <i class="fas fa-trophy icon"></i></h2>
+        <div class="trophies-container">
+            <img src="https://github-profile-trophy.vercel.app/?username=wcnunes&theme=codeSTACKr&no-frame=false&no-bg=false&margin-w=4" alt="GitHub Trophies">
+        </div>
+        <h3 class="top-repo-container">🔝 Top Contributed Repo <i class="fas fa-star icon"></i></h3>
+        <div class="top-repo-container">
+            <img src="https://github-contributor-stats.vercel.app/api?username=wcnunes&limit=5&theme=codeSTACKr&combine_all_yearly_contributions=true" alt="Top Contributed Repo">
+        </div>
+        <hr>
+        <p><a href="https://visitcount.itsvg.in"><img src="https://visitcount.itsvg.in/api?id=wcnunes&icon=5&color=2" alt="Visit Count"></a></p>
+        <p> 💰 Ajuda no café? Eu bebo muito café ☕️
+            <a href="https://buymeacoffee.com/troopsofarr"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="BuyMeACoffee"></a>
+        </p>
+    </div>
+    <div class="footer">
+        Que a Força esteja com você! <i class="fas fa-jedi icon"></i>
+    </div>
+    <script src="https://kit.fontawesome.com/seu-kit-aqui.js" crossorigin="anonymous"></script>
+</body>
+</html>
