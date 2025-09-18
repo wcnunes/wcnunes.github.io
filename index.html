@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Willian C. Nunes - Dev / Inventor</title>
 
-    <!-- Removido daqui: <img alt="Game?" src="https://steamdb.info/calculator/76561198155576227/" data-canonical-src="https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white" style="max-width: 100%;"> -->
-    
     <link rel="icon" href="https://github.com/wcnunes/wcnunes/blob/main/profile.png?raw=true" type="image/png">
     <style>
         body {
@@ -34,12 +32,15 @@
         }
         h3 {
             font-size: 1.5em;
-            border-bottom: 2px solid #eee;
+            /* Removi o border-bottom aqui para não aparecer logo abaixo do "Dev / Inventor" */
+            /* Se quiser que o Dev/Inventor tenha a linha, ajuste o seletor para ser mais específico */
+            /* border-bottom: 2px solid #eee; */
             padding-bottom: 10px;
             margin-top: 30px;
         }
         h3.align-left {
             text-align: left;
+            border-bottom: 2px solid #eee; /* Mantém a borda para os outros h3 */
         }
         ul {
             list-style: none;
@@ -111,14 +112,16 @@
             transform: translateY(-5px) scale(1.05); /* Efeito de levantar no hover */
         }
 
-        /* NOVO CSS PARA OS BADGES DO CABEÇALHO */
+        /* CSS PARA OS BADGES DO CABEÇALHO */
         .header-badges {
             display: flex;
             justify-content: center; /* Centraliza os badges horizontalmente */
             gap: 20px; /* Espaço entre os badges */
-            margin-top: 20px; /* Espaço acima dos badges */
-            margin-bottom: 30px; /* Espaço abaixo dos badges antes do H1 */
+            margin-top: 10px; /* Espaço acima dos badges (ajustei para não ficar muito longe do h3) */
+            margin-bottom: 30px; /* Espaço abaixo dos badges antes do UL */
             flex-wrap: wrap; /* Permite quebrar linha em telas menores */
+            border-bottom: 2px solid #eee; /* Adiciona uma linha abaixo dos badges */
+            padding-bottom: 20px; /* Espaço entre a linha e os badges */
         }
         .header-badges img {
             height: 40px; /* Altura padrão para os badges */
@@ -130,12 +133,14 @@
         .header-badges img:hover {
             transform: scale(1.05); /* Efeito de escala no hover */
         }
-
     </style>
 </head>
 <body>
     <div class="container">
-        <!-- NOVOS BADGES AQUI -->
+        <h1 align="center">Oi 👋, eu sou Willian C. Nunes</h1>
+        <h3 align="center">Dev / Inventor</h3>
+
+        <!-- NOVOS BADGES AQUI, APÓS O H3 "Dev / Inventor" -->
         <div class="header-badges">
             <a href="https://picpay.me/wcnunes" target="_blank" rel="noopener noreferrer">
                 <img alt="Faz o Pix" src="https://img.shields.io/badge/picpay-21C25E?style=for-the-badge&logo=picpay&logoColor=white">
@@ -145,9 +150,6 @@
             </a>
         </div>
         <!-- FIM DOS NOVOS BADGES -->
-
-        <h1 align="center">Oi 👋, eu sou Willian C. Nunes</h1>
-        <h3 align="center">Dev / Inventor</h3>
 
         <ul>
             <li>Estudando sempre! <strong>LLMM, IA, Security, Hacking, Engineering</strong></li>
