@@ -1,5 +1,3 @@
---- START OF FILE readme-will.html ---
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -12,7 +10,7 @@
             font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
             line-height: 1.6;
             color: #333;
-            background-color: #f4f7f6; /* Fundo claro do seu site */
+            background-color: #f4f7f6;
             margin: 0;
             padding: 20px;
             display: flex;
@@ -77,8 +75,6 @@
         .social-icons a:hover img, .tech-icons a:hover img {
             transform: scale(1.1);
         }
-        /* A classe center-img não será mais usada para a imagem dos olhos,
-           mas a mantenho caso você a utilize em outro lugar. */
         p.center-img {
             text-align: center;
             margin-top: 30px;
@@ -110,26 +106,6 @@
         }
         .badge-curso-container img:hover {
             transform: translateY(-5px) scale(1.05); /* Efeito de levantar no hover */
-        }
-
-        /* CSS ADICIONADO PARA OS OLHOS APAVORANTES */
-        #olhosApavorantes {
-            width: 577px;
-            height: 120px;
-            position: fixed; /* 'fixed' mantém os olhos na viewport, mesmo com scroll */
-            top: 0;
-            left: 0;
-            pointer-events: none; /* IMPORTANTE: Garante que os olhos não bloqueiem cliques em outros elementos */
-            z-index: 9999; /* Garante que os olhos fiquem sempre por cima de tudo */
-            /* A translação inicial -50%, -50% serve para centralizar a imagem no ponto onde o JavaScript a posiciona.
-               O JavaScript ajustará a posição (top, left) e, com este transform, o CENTRO da imagem estará no mouse. */
-            transform: translate(-50%, -50%);
-            transition: transform 0.05s ease-out; /* Adiciona uma transição suave ao movimento */
-
-            /* A imagem dos olhos tem um fundo preto. Seu site tem um fundo claro (#f4f7f6).
-               Isso fará com que o retângulo preto da imagem seja visível.
-               Se desejar que apenas os olhos flutuem sem o fundo,
-               você precisará editar a imagem para ter um fundo transparente (e salvar como .png) */
         }
     </style>
 </head>
@@ -264,10 +240,7 @@
             <a href="https://zapier.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/zapier/zapier-icon.svg" alt="zapier" /> </a> 
         </p>
 
-        <!-- A TAG IMG DOS OLHOS APAVORANTES - Substituindo o antigo badge de top-langs -->
-        <!-- Lembre-se: O fundo da sua imagem (preto) será visível contra o fundo claro do seu site!
-             Se quiser apenas os olhos, edite a imagem para ter fundo transparente e salve como .png -->
-        <img id="olhosApavorantes" src="img/olhos-apavorantes.gif" alt="Olhos Apavorantes que seguem o mouse">
+        <p class="center-img"><img src="https://github-readme-stats.vercel.app/api/top-langs?username=wcnunes&show_icons=true&locale=en&layout=compact" alt="wcnunes" /></p>
 
         <div class="badge-curso-container">
             <h2>🏅 Certificados e Badges</h2>
@@ -302,16 +275,5 @@
             <img src="badges/0b36c000-a262-4604-a1e0-54fa1e751466.png" alt="0b36c000-a262-4604-a1e0-54fa1e751466" width="110" height="110">
         </div>
     </div>
-
-    <!-- JavaScript ADICIONADO PARA OS OLHOS APAVORANTES -->
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const olhosApavorantes = document.getElementById('olhosApavorantes');
-
-            document.addEventListener('mousemove', (event) => {
-                olhosApavorantes.style.transform = `translate(${event.clientX}px, ${event.clientY}px) translate(-50%, -50%)`;
-            });
-        });
-    </script>
 </body>
 </html>
