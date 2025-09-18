@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Willian C. Nunes - Dev / Inventor</title>
 
-    <img alt="Game?" src="https://steamdb.info/calculator/76561198155576227/" data-canonical-src="https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white" style="max-width: 100%;">
+    <!-- Removido daqui: <img alt="Game?" src="https://steamdb.info/calculator/76561198155576227/" data-canonical-src="https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white" style="max-width: 100%;"> -->
     
     <link rel="icon" href="https://github.com/wcnunes/wcnunes/blob/main/profile.png?raw=true" type="image/png">
     <style>
@@ -110,10 +110,42 @@
         .badge-curso-container img:hover {
             transform: translateY(-5px) scale(1.05); /* Efeito de levantar no hover */
         }
+
+        /* NOVO CSS PARA OS BADGES DO CABEÇALHO */
+        .header-badges {
+            display: flex;
+            justify-content: center; /* Centraliza os badges horizontalmente */
+            gap: 20px; /* Espaço entre os badges */
+            margin-top: 20px; /* Espaço acima dos badges */
+            margin-bottom: 30px; /* Espaço abaixo dos badges antes do H1 */
+            flex-wrap: wrap; /* Permite quebrar linha em telas menores */
+        }
+        .header-badges img {
+            height: 40px; /* Altura padrão para os badges */
+            max-width: 100%; /* Garante que a imagem não ultrapasse o contêiner */
+            border-radius: 5px; /* Bordas arredondadas sutis */
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra suave */
+            transition: transform 0.2s ease-in-out; /* Efeito de hover */
+        }
+        .header-badges img:hover {
+            transform: scale(1.05); /* Efeito de escala no hover */
+        }
+
     </style>
 </head>
 <body>
     <div class="container">
+        <!-- NOVOS BADGES AQUI -->
+        <div class="header-badges">
+            <a href="https://picpay.me/wcnunes" target="_blank" rel="noopener noreferrer">
+                <img alt="Faz o Pix" src="https://img.shields.io/badge/picpay-21C25E?style=for-the-badge&logo=picpay&logoColor=white">
+            </a>
+            <a href="https://steamdb.info/calculator/76561198155576227/" target="_blank" rel="noopener noreferrer">
+                <img alt="Game?" src="https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white">
+            </a>
+        </div>
+        <!-- FIM DOS NOVOS BADGES -->
+
         <h1 align="center">Oi 👋, eu sou Willian C. Nunes</h1>
         <h3 align="center">Dev / Inventor</h3>
 
@@ -267,9 +299,3 @@
     </div>
 </body>
 </html>
-
-
-
-
-
-
